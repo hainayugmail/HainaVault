@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"09887dbb4a92824a","x":-380,"y":100,"width":400,"height":400,"type":"file","file":"InteractiveNarrativeGame/古风商战/古风商战.md"},
+		{"id":"73ded8a87d349fe6","x":80,"y":100,"width":400,"height":400,"type":"file","file":"InteractiveNarrativeGame/古风商战/游戏名.md"}
+	],
+	"edges":[]
+}

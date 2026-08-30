@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "d1d77bde86a24259",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b9abe1d216ba505",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feeda3e1c512b0c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InteractiveNarrativeGame/鲁荣渔2682/背景/鲁荣渔2682.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "鲁荣渔2682"
+            }
+          },
+          {
+            "id": "7baf42472d25ad34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/立绘Prompt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "立绘Prompt"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c21b32785ab6ae35",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f0a36f07538fba0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "810d3a221b1fe9ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "65a7b686b17bf717",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "49df5a8cd4e920c1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.76622772216797
+  },
+  "right": {
+    "id": "20096d5d0c5758d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c281a1961b9f7210",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71b1ce4c0fb0e69a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pasted image 20260326213303.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasted image 20260326213303"
+            }
+          },
+          {
+            "id": "18ff79ab58d8ee0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pasted image 20260326213303.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20260326213303"
+            }
+          },
+          {
+            "id": "720c9e5b0ad4ce77",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "039a108b8d996dbb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c06ff3ab431e556e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pasted image 20260326213303.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20260326213303"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7baf42472d25ad34",
+  "lastOpenFiles": [
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/立绘表人物.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/立绘表背景.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/立绘Prompt.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 抱怨鬼-情绪垃圾车 energy vampire/故事 2 抱怨鬼-情绪垃圾车 energy vampire.md",
+    "InteractiveNarrativeGame/长安月未央/男主视角/23 醒心石（皇帝视角）.md",
+    "InteractiveNarrativeGame/长安月未央/男主视角/03 两面三刀（皇帝视角）.md",
+    "InteractiveNarrativeGame/长安月未央/男主视角/22 猎（皇帝视角）.md",
+    "InteractiveNarrativeGame/长安月未央/男主视角/_Index 男主视角.md",
+    "InteractiveNarrativeGame/长安月未央/男主视角",
+    "InteractiveNarrativeGame/斩妖/故事 2 抱怨鬼-情绪垃圾车 energy vampire/文档.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 抱怨鬼-情绪垃圾车 energy vampire/七拍结构重构版.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/四性格底色对白大纲.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/故事 1 凶宅 西京红衣怨.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/Beat Sheet.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/结局类型 清醒蛰伏.md",
+    "InteractiveNarrativeGame/群像/借鉴/群像游戏大纲.md",
+    "InteractiveNarrativeGame/群像/借鉴/叙事手游 宫斗借鉴.md",
+    "InteractiveNarrativeGame/斩妖/视觉/02_紫苏 npc 立绘.md",
+    "InteractiveNarrativeGame/斩妖/视觉/01 打卤面案 场景背景 Prompt.md",
+    "InteractiveNarrativeGame/斩妖/视觉/01 打卤面案 NPC 立绘 Prompt.md",
+    "Pasted image 20260822143546.png",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/紫苏黑化.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/紫苏知道真相.md",
+    "InteractiveNarrativeGame/斩妖/故事 1 凶宅 绛珠血衣/七拍结构重构版.md",
+    "InteractiveNarrativeGame/斩妖/斩妖.base",
+    "InteractiveNarrativeGame/斩妖/核心机制设计文档.md",
+    "InteractiveNarrativeGame/斩妖/门派熟练度.md",
+    "InteractiveNarrativeGame/斩妖/通用判定框架整合.md",
+    "Pasted image 20260822123052.png",
+    "InteractiveNarrativeGame/斩妖/故事 0 最后一碗面/0 设计.md",
+    "InteractiveNarrativeGame/长安月未央/长安月未央.base",
+    "InteractiveNarrativeGame/长安月未央/PalaceOfTheEclipseCover.png",
+    "InteractiveNarrativeGame/长安月未央/项目地图.canvas",
+    "InteractiveNarrativeGame/长安月未央/阵营·人物关系图.canvas",
+    "InteractiveNarrativeGame/长安月未央/故事素材",
+    "InteractiveNarrativeGame/长安月未央/节拍表",
+    "InteractiveNarrativeGame/长安月未央/设计/配角命运矩阵_pivot_结局x配角.xlsx",
+    "InteractiveNarrativeGame/长安月未央/设计/结局设计_配角命运矩阵.xlsx",
+    "InteractiveNarrativeGame/长安月未央/编辑建议",
+    "InteractiveNarrativeGame/长安月未央/结局",
+    "InteractiveNarrativeGame/长安月未央/视觉",
+    "长安月未央/changanyueweiyangCover.png",
+    "Untitled 2.canvas",
+    "Pasted image 20260821053655.png",
+    "InteractiveNarrativeGame/古风商战/Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Pasted image 20260815125347.png",
+    "InteractiveNarrativeGame/长安月未央 Palace of the Eclipse/Untitled.canvas",
+    "Pasted image 20260326214622.png",
+    "Pasted image 20260326214255.png",
+    "Pasted image 20260326213926.png",
+    "Pasted image 20260326213309.png",
+    "InteractiveNarrativeGame/诡战/Original/诡战的一些插画.canvas",
+    "Game/Develope/Untitled.canvas"
+  ]
+}

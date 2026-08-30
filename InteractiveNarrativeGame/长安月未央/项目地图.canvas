@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"2c3fdaae55d820ca","type":"file","file":"InteractiveNarrativeGame/长安月未央/_Index 长安月未央.md","x":-160,"y":-80,"width":320,"height":160,"color":"4"},
+		{"id":"53227f6c85f75e9f","type":"file","file":"InteractiveNarrativeGame/长安月未央/章节/_Index 章节.md","x":-140,"y":-640,"width":300,"height":140,"color":"1"},
+		{"id":"981de2918520070e","type":"file","file":"InteractiveNarrativeGame/长安月未央/结局/_Index 结局.md","x":250,"y":370,"width":300,"height":140,"color":"5"},
+		{"id":"3b26cda877126fae","type":"file","file":"InteractiveNarrativeGame/长安月未央/编辑建议/_Index 长安编辑建议.md","x":-460,"y":370,"width":300,"height":140,"color":"6"},
+		{"id":"5bd3196912325380","type":"file","file":"InteractiveNarrativeGame/长安月未央/节拍表/_Index 节拍表.md","x":-760,"y":-80,"width":300,"height":140,"color":"4"},
+		{"id":"23cd4e236ae834c3","type":"file","file":"InteractiveNarrativeGame/长安月未央/故事素材/_Index 故事素材.md","x":-720,"y":-570,"width":300,"height":140,"color":"2"},
+		{"id":"6add69ff2ffdd0dc","type":"file","file":"InteractiveNarrativeGame/长安月未央/设计/_Index 设计.md","x":400,"y":-570,"width":300,"height":140,"color":"2"},
+		{"id":"382ce484692521b0","type":"file","file":"InteractiveNarrativeGame/长安月未央/视觉/_Index 视觉.md","x":480,"y":-70,"width":300,"height":140,"color":"3"}
+	],
+	"edges":[
+		{"id":"da3104931edca05c","fromNode":"2c3fdaae55d820ca","fromSide":"top","toNode":"53227f6c85f75e9f","toSide":"bottom","color":"1"},
+		{"id":"19baaea036f2e19e","fromNode":"2c3fdaae55d820ca","fromSide":"top","toNode":"6add69ff2ffdd0dc","toSide":"bottom","color":"2"},
+		{"id":"e54b3575830d6f6e","fromNode":"2c3fdaae55d820ca","fromSide":"right","toNode":"382ce484692521b0","toSide":"left","color":"3"},
+		{"id":"a9e97d4a56ff7d31","fromNode":"2c3fdaae55d820ca","fromSide":"bottom","toNode":"981de2918520070e","toSide":"top","color":"5"},
+		{"id":"d3ff343684fad1d4","fromNode":"2c3fdaae55d820ca","fromSide":"bottom","toNode":"3b26cda877126fae","toSide":"top","color":"6"},
+		{"id":"5f4ca7e4bb552b56","fromNode":"2c3fdaae55d820ca","fromSide":"left","toNode":"5bd3196912325380","toSide":"right","color":"4"},
+		{"id":"e86b8f8b8ac302b5","fromNode":"2c3fdaae55d820ca","fromSide":"top","toNode":"23cd4e236ae834c3","toSide":"bottom","color":"2"}
+	]
+}

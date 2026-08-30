@@ -1,0 +1,148 @@
+filters: file.inFolder("InteractiveNarrativeGame/长安月未央")
+formulas:
+  chapter_num: if(file.inFolder("InteractiveNarrativeGame/长安月未央/章节") && /^\d{2}/.matches(file.basename), number(file.basename.slice(0,2)), "")
+  chapter_title: if(file.inFolder("InteractiveNarrativeGame/长安月未央/章节") && /^\d{2} /.matches(file.basename), file.basename.slice(3), "")
+  word_est: (file.size / 3).round(0)
+  updated: file.mtime.format("YYYY-MM-DD")
+  ending_type: if(file.basename.startsWith("结局"), "结局场景", if(file.basename.startsWith("文档"), "设计文档", "其他"))
+  is_game_note: if(file.inFolder("InteractiveNarrativeGame/长安月未央/编辑建议") && file.basename.contains("游戏"), "游戏化笔记", "修改建议")
+  design_num: if(file.inFolder("InteractiveNarrativeGame/长安月未央/设计") && /^\d{1,2} /.matches(file.basename), if(file.basename.slice(1,2) == " ", number(file.basename.slice(0,1)), number(file.basename.slice(0,2))), "")
+  design_title: if(file.inFolder("InteractiveNarrativeGame/长安月未央/设计") && /^\d{1,2} /.matches(file.basename), if(file.basename.slice(1,2) == " ", file.basename.slice(2), file.basename.slice(3)), "")
+  beatsheet_num: if(file.inFolder("InteractiveNarrativeGame/长安月未央/节拍表") && /^\d{2}/.matches(file.basename), number(file.basename.slice(0,2)), "")
+  beatsheet_title: if(file.inFolder("InteractiveNarrativeGame/长安月未央/节拍表") && /^\d{2} /.matches(file.basename), file.basename.slice(3), "")
+  pov_chapter_num: if(file.inFolder("InteractiveNarrativeGame/长安月未央/男主视角") && /^\d{2}/.matches(file.basename), number(file.basename.slice(0,2)), "")
+  pov_chapter_title: if(file.inFolder("InteractiveNarrativeGame/长安月未央/男主视角") && /^\d{2} /.matches(file.basename), file.basename.slice(3), "")
+properties:
+  formula.chapter_num:
+    displayName: 章节号
+  formula.chapter_title:
+    displayName: 标题
+  formula.word_est:
+    displayName: 字数估算
+  formula.updated:
+    displayName: 最后编辑
+  formula.ending_type:
+    displayName: 类型
+  formula.is_game_note:
+    displayName: 分类
+  formula.design_num:
+    displayName: 编号
+  formula.design_title:
+    displayName: 标题
+  formula.beatsheet_num:
+    displayName: 章节号
+  formula.beatsheet_title:
+    displayName: 标题
+  formula.pov_chapter_num:
+    displayName: 对应章节号
+  formula.pov_chapter_title:
+    displayName: 标题
+  status:
+    displayName: 状态
+views:
+  - type: table
+    name: 全部 All
+    order:
+      - file.name
+      - file.folder
+      - formula.updated
+      - formula.word_est
+  - type: table
+    name: 章节 Chapters
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/章节")
+        - file.name != "_Index 章节.md"
+    order:
+      - formula.chapter_num
+      - formula.chapter_title
+      - file.name
+      - status
+      - formula.word_est
+      - formula.updated
+    summaries:
+      formula.word_est: Sum
+  - type: table
+    name: 设计 Design
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/设计")
+        - file.name != "_Index 设计.md"
+    order:
+      - formula.design_num
+      - formula.design_title
+      - file.name
+      - status
+      - formula.updated
+  - type: cards
+    name: 视觉 Visual
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/视觉")
+        - file.name != "_Index 视觉.md"
+    order:
+      - file.name
+      - status
+      - formula.updated
+  - type: table
+    name: 结局 Endings
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/结局")
+        - file.name != "_Index 结局.md"
+    groupBy:
+      property: formula.ending_type
+      direction: ASC
+    order:
+      - formula.ending_type
+      - file.name
+      - formula.word_est
+      - formula.updated
+  - type: table
+    name: 编辑建议 Editing Notes
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/编辑建议")
+        - file.name != "_Index 编辑建议.md"
+    groupBy:
+      property: formula.is_game_note
+      direction: ASC
+    order:
+      - formula.is_game_note
+      - file.name
+      - formula.word_est
+      - formula.updated
+  - type: table
+    name: 节拍表 BeatSheet
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/节拍表")
+        - file.name != "_Index 节拍表.md"
+    order:
+      - formula.beatsheet_num
+      - formula.beatsheet_title
+      - file.name
+      - formula.updated
+  - type: table
+    name: 故事素材 StoryResource
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/故事素材")
+        - file.name != "_Index 故事素材.md"
+    order:
+      - file.name
+      - status
+      - formula.updated
+  - type: table
+    name: 男主视角 Male POV
+    filters:
+      and:
+        - file.inFolder("InteractiveNarrativeGame/长安月未央/男主视角")
+        - file.name != "_Index 男主视角.md"
+    order:
+      - formula.pov_chapter_num
+      - formula.pov_chapter_title
+      - file.name
+      - status
+      - formula.word_est
+      - formula.updated

@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"0822f07b8d82a243","type":"group","x":-290,"y":470,"width":970,"height":560,"color":"4","label":"皇帝阵营（核心稳固）"},
+		{"id":"23a7644cb2941bb7","type":"group","x":610,"y":-360,"width":870,"height":415,"color":"2","label":"裴家系（受制衡但保留体面）"},
+		{"id":"469a67d25b013674","type":"group","x":-1200,"y":-240,"width":800,"height":450,"color":"1","label":"太后系（急剧萎缩）"},
+		{"id":"1a476c4682349879","type":"text","text":"**穆皇后（穆云锦）**\n太后义女、穆家嫡出\n后期：产女后心灰意冷，主动请辞出家，法号「净安」","x":1400,"y":450,"width":280,"height":160,"color":"6"},
+		{"id":"b7b822af314ed77c","type":"file","file":"InteractiveNarrativeGame/长安月未央/设计/10 阵营 势力关系图.md","x":1400,"y":660,"width":340,"height":110},
+		{"id":"a57e4c015460910c","type":"file","file":"InteractiveNarrativeGame/长安月未央/设计/9 极简人设速查表.md","x":1400,"y":790,"width":340,"height":110},
+		{"id":"6277f3032ea62acf","type":"file","file":"InteractiveNarrativeGame/长安月未央/设计/1 主要人物列表.md","x":1400,"y":920,"width":340,"height":110},
+		{"id":"f3687938e877291d","type":"text","text":"**段淑妃**\n将门虎女，武艺高强\n后期：战功复位","x":0,"y":845,"width":240,"height":120,"color":"4"},
+		{"id":"503fd6a3de286e36","type":"text","text":"**慕容昭仪**\n前朝燕国宗室后裔，太后拉拢的暗棋\n后期：暗卫身份公开","x":370,"y":840,"width":240,"height":120,"color":"4"},
+		{"id":"a3f5a4c6f12a5d8d","type":"text","text":"**陈景**\n皇帝贴身内侍，办事圆滑机变","x":-290,"y":855,"width":240,"height":120,"color":"4"},
+		{"id":"a4156acc66998663","type":"text","text":"**皇帝（阿淮）**\n亲征后展现真实军事才能\n后期：完全掌权","x":-290,"y":543,"width":240,"height":135,"color":"4"},
+		{"id":"872cbc614c3afad1","type":"text","text":"## 阵营演变简述\n\n**早期**（01章-选后完成前）：太后系主导，皇帝势单力薄靠疯癫人设自保，裴家中立观望，女主独立摸索自保之道。\n\n**中期**（选后完成后至亲征前）：皇帝阵营逐渐成形并反向操控博弈；裴家（裴尚书死谏后）倒向皇帝；皇后阵营归属反复摇摆；女主深度介入皇帝阵营，但对外身份仍是小掌记。\n\n**后期**（亲征起至结局，本图所示）：太后系急剧萎缩瓦解；皇帝阵营成熟稳固；裴家受制衡但保留体面；皇后主动退出权力棋局；女主身份彻底公开。","x":-1100,"y":448,"width":540,"height":460,"color":"6"},
+		{"id":"9fd9ef9c029c40a5","type":"text","text":"# 长安月未央 · 阵营与人物关系图\n\n基于 [[10 阵营 势力关系图]] 与 [[9 极简人设速查表]] 整理，展示**后期（亲征起至结局，约第四至第五年）**的阵营格局。\n完整的三个时间切片（早期 / 中期 / 后期）演变请见左下方说明卡片，或直接查看原始设计文档。","x":-350,"y":-640,"width":1180,"height":180},
+		{"id":"f77cd5900e246894","type":"text","text":"**太后**\n罪奴出身、掖庭爬到今日，非皇帝生母\n后期：孤立无援","x":-920,"y":-230,"width":240,"height":120,"color":"1"},
+		{"id":"73a9390b04bf1c61","type":"text","text":"**王贵人**\n选秀新入的最后一枚棋子\n后期：被禁足","x":-1160,"y":55,"width":240,"height":120,"color":"1"},
+		{"id":"d6682b94e3eca190","type":"text","text":"**鲁承恩**\n军中内应\n后期：已伏诛（斩首示众）","x":-680,"y":55,"width":240,"height":120,"color":"1"},
+		{"id":"d48d4508c7b3c1ee","type":"text","text":"**裴尚书**（已故）\n三朝老臣，以死谏为裴家换取政治资本","x":910,"y":-350,"width":240,"height":120,"color":"2"},
+		{"id":"3b23372e66939669","type":"text","text":"**裴德妃**\n裴尚书孙女，代掌六宫\n后期：功高但被有意压制补缺规模","x":610,"y":-110,"width":240,"height":120,"color":"2"},
+		{"id":"79a15764a8454f08","type":"text","text":"**裴颜卿**\n裴德妃兄长，军部左侍郎\n后期：军部实职，受制衡","x":1240,"y":-110,"width":240,"height":120,"color":"2"},
+		{"id":"5aa9115135f51dec","type":"text","text":"**女主（李长安）**\n掌记/典记，善制图理账\n后期：身份彻底公开，参与亲征","x":370,"y":650,"width":240,"height":120,"color":"4"},
+		{"id":"7e97d77f69e2d1b1","type":"text","text":"**韩崇**\n御林军统领→边军六镇守将\n后期：晋六镇守将","x":370,"y":491,"width":240,"height":120,"color":"4"}
+	],
+	"edges":[
+		{"id":"1d416318ef2bf883","fromNode":"f77cd5900e246894","fromSide":"bottom","toNode":"73a9390b04bf1c61","toSide":"top","color":"1","label":"棋子"},
+		{"id":"957f597d4458a0ba","fromNode":"f77cd5900e246894","fromSide":"bottom","toNode":"d6682b94e3eca190","toSide":"top","color":"1","label":"军中内应（已伏诛）"},
+		{"id":"f5c4977db6ad8194","fromNode":"d48d4508c7b3c1ee","fromSide":"bottom","toNode":"3b23372e66939669","toSide":"top","color":"2","label":"祖孙，以死铺路"},
+		{"id":"34fbf59c8dd2782d","fromNode":"d48d4508c7b3c1ee","fromSide":"bottom","toNode":"79a15764a8454f08","toSide":"top","color":"2","label":"祖孙，以死铺路"},
+		{"id":"9a55e3f4ca899528","fromNode":"a4156acc66998663","fromSide":"right","toNode":"5aa9115135f51dec","toSide":"left","color":"4","label":"倚重·参谋"},
+		{"id":"573f2a3eea6fe0cb","fromNode":"a4156acc66998663","fromSide":"bottom","toNode":"a3f5a4c6f12a5d8d","toSide":"top","color":"4","label":"心腹"},
+		{"id":"9fc8bd4c1c2ba60f","fromNode":"a4156acc66998663","fromSide":"right","toNode":"7e97d77f69e2d1b1","toSide":"left","color":"4","label":"统兵托付"},
+		{"id":"46b227556b4582d0","fromNode":"a4156acc66998663","fromSide":"bottom","toNode":"f3687938e877291d","toSide":"top","color":"4","label":"君臣·亦是夫妻"},
+		{"id":"82add0de4bf9c4bb","fromNode":"a4156acc66998663","fromSide":"right","toNode":"503fd6a3de286e36","toSide":"left","color":"4","label":"暗卫"},
+		{"id":"5a6204c40b82a350","fromNode":"0822f07b8d82a243","fromSide":"top","toNode":"469a67d25b013674","toSide":"bottom","color":"1","label":"彻底清算·压制"},
+		{"id":"ac2a91d872983960","fromNode":"23a7644cb2941bb7","fromSide":"bottom","toNode":"0822f07b8d82a243","toSide":"top","color":"2","label":"效忠但受制衡"},
+		{"id":"6469b8130e5d45f2","fromNode":"469a67d25b013674","fromSide":"right","toNode":"1a476c4682349879","toSide":"left","color":"1","label":"曾挟其子逼宫·结怨"},
+		{"id":"28d877eab68bc844","fromNode":"1a476c4682349879","fromSide":"left","toNode":"0822f07b8d82a243","toSide":"right","toEnd":"none","color":"6","label":"主动退出权力棋局"},
+		{"id":"1dd3f485ff02a75b","fromNode":"a4156acc66998663","fromSide":"right","toNode":"0822f07b8d82a243","toSide":"top"}
+	]
+}

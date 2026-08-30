@@ -1,0 +1,90 @@
+filters: file.inFolder("InteractiveNarrativeGame/斩妖")
+formulas:
+  word_est: (file.size / 3).round(0)
+  updated: file.mtime.format("YYYY-MM-DD")
+  story_group: file.folder.replace("InteractiveNarrativeGame/斩妖/", "")
+  content_type: if(file.folder == "InteractiveNarrativeGame/斩妖", "项目文档", if(file.inFolder("InteractiveNarrativeGame/斩妖/视觉"), "视觉", if(file.inFolder("InteractiveNarrativeGame/斩妖/草稿"), "草稿", if(file.inFolder("InteractiveNarrativeGame/斩妖/道家"), "参考资料", if(file.basename.startsWith("故事 ") || file.basename.contains("Storyline"), "故事正文", if(file.basename.contains("七拍结构重构版") || file.basename.contains("beat sheet"), "节拍表", "设计文档"))))))
+properties:
+  formula.word_est:
+    displayName: 字数估算
+  formula.updated:
+    displayName: 最后编辑
+  formula.story_group:
+    displayName: 分组
+  formula.content_type:
+    displayName: 类型
+  status:
+    displayName: 状态
+views:
+  - type: table
+    name: 全部 All
+    groupBy:
+      property: formula.content_type
+      direction: ASC
+    order:
+      - file.name
+      - formula.content_type
+      - formula.story_group
+      - formula.word_est
+      - formula.updated
+  - type: table
+    name: 故事正文 Story Text
+    filters: formula.content_type == "故事正文"
+    groupBy:
+      property: formula.story_group
+      direction: ASC
+    order:
+      - formula.story_group
+      - file.name
+      - status
+      - formula.word_est
+      - formula.updated
+    summaries:
+      formula.word_est: Sum
+  - type: table
+    name: 节拍表 BeatSheet
+    filters: formula.content_type == "节拍表"
+    groupBy:
+      property: formula.story_group
+      direction: ASC
+    order:
+      - formula.story_group
+      - file.name
+      - formula.updated
+  - type: table
+    name: 设计文档 Design Notes
+    filters: formula.content_type == "设计文档"
+    groupBy:
+      property: formula.story_group
+      direction: ASC
+    order:
+      - formula.story_group
+      - file.name
+      - formula.updated
+  - type: table
+    name: 项目文档 Project Docs
+    filters: formula.content_type == "项目文档"
+    order:
+      - file.name
+      - formula.word_est
+      - formula.updated
+  - type: cards
+    name: 视觉 Visual
+    filters: formula.content_type == "视觉"
+    order:
+      - file.name
+      - formula.updated
+  - type: table
+    name: 草稿 Drafts
+    filters: formula.content_type == "草稿"
+    order:
+      - file.name
+      - formula.word_est
+      - formula.updated
+  - type: table
+    name: 参考资料 Reference
+    filters: formula.content_type == "参考资料"
+    order:
+      - file.name
+      - formula.word_est
+      - formula.updated
