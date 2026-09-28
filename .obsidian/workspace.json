@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "7baf42472d25ad34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/故事 2 牢骚煞-energy vampire.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "故事 2 牢骚煞-energy vampire"
-            }
-          },
-          {
             "id": "671ae5c3b4a9ddde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/故事 3 渡劫.md",
+                "file": "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/背景.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "故事 3 渡劫"
+              "title": "背景"
             }
           }
         ],
@@ -214,35 +200,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "7baf42472d25ad34",
+  "active": "671ae5c3b4a9ddde",
   "lastOpenFiles": [
-    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊/故事 8 金蚕蛊.md",
-    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊/故事 8 金蚕蛊 大结局素材.md",
-    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊/古代志怪.md",
-    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊/Untitled.md",
-    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊/贪心不足.md",
-    "InteractiveNarrativeGame/斩妖/故事 0 最后一碗面/0 打卤面 Storyline.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/立绘背景.md",
-    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/立绘人物.md",
-    "InteractiveNarrativeGame/斩妖/故事 0 最后一碗面/立绘.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/设计走向.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/人物立绘.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/背景.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/故事 4 屠窝.md",
+    "InteractiveNarrativeGame/斩妖/故事 5 信愿魔 Belief Demon/故事 5 信愿魔 （贯穿整个游戏）.md",
+    "InteractiveNarrativeGame/斩妖/故事 5 信愿魔 Belief Demon/七拍结构重构版.md",
+    "InteractiveNarrativeGame/斩妖/故事 5 信愿魔 Belief Demon/设计.md",
     "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/故事 3 渡劫.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/渡劫对话01.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/渡劫对话01旧.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "InteractiveNarrativeGame/斩妖/故事 5 信愿魔 （贯穿整个游戏）/Untitled",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/beat sheet.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/结局三 替罪羊偿债 怨种新生.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/结局二 首领黑化.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/设计.md",
     "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/七拍结构重构版.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/不同法師.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/七拍结构重构版.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫/故事 3 渡劫-1.md",
-    "InteractiveNarrativeGame/斩妖/故事 3 渡劫/设计走向-1.md",
-    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/牢骚煞_立绘与背景_AI绘图prompt.md",
+    "InteractiveNarrativeGame/斩妖/故事 4 屠窝 Den Massacre/不同法師.md",
+    "InteractiveNarrativeGame/斩妖/斩妖大结局/牢骚煞与斩妖大结局.md",
+    "InteractiveNarrativeGame/斩妖/斩妖大结局/阿狸与斩妖大结局.md",
+    "InteractiveNarrativeGame/斩妖/斩妖大结局/金蚕蛊与大结局.md",
+    "InteractiveNarrativeGame/斩妖/斩妖大结局/紫苏与斩妖大结局.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/牢骚煞的治疗.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/法术设计.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/牢骚煞_四门派对峙设计.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/案二_牢骚煞_音乐设计文档.md",
     "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/故事 2 牢骚煞-energy vampire.md",
     "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/古代故事.md",
-    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/文档.md",
-    "InteractiveNarrativeGame/斩妖/斩妖大结局/故事 结局.md",
+    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/七拍结构重构版.md",
+    "InteractiveNarrativeGame/斩妖/故事 3 渡劫 Ascension Trial/不同法師.md",
+    "InteractiveNarrativeGame/斩妖/故事 2 牢骚煞 energy vampire/立绘与背景绘图prompt.md",
+    "InteractiveNarrativeGame/斩妖/故事 8 金蚕蛊",
+    "InteractiveNarrativeGame/斩妖/故事 5 信愿魔 （贯穿整个游戏）/Untitled",
     "InteractiveNarrativeGame/斩妖/废稿",
     "InteractiveNarrativeGame/斩妖/素材",
     "InteractiveNarrativeGame/越狱",
